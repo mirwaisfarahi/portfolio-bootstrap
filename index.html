@@ -7,30 +7,78 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
-    <title>Mirwais Farahi</title>
+    <link rel="stylesheet" href="./css/basic.css">
+    <title>Portfolio</title>
   </head>
   <body>
-    <header>
+    <header class=".toolbar textcolor">
+    <!-- Navbar -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Brand</a>
+                <a class="navbar-brand" href="#">Logo</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
-                        </li>
-                    </ul>
-                </div>
+    <!-- Navbar Links -->
+                <ul class="nav justify-content-end">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><img src="./images/D_Mail.svg" alt="Mail icon"></a>
+                    </li>
+                  </ul>
             </div>
         </nav>
+    
     </header>
+<!-- Home Page -->
+    <section>
+        <div class="container no-gutters">
+            <div class="row">
+              <div class="col-sm-1 mt-4">
+                <ul class="contactIcons">
+                    <li><a href="#"><img src="images/GitHub.svg" alt="Github Link"></a></li>
+                    <li class="pt-2"><a href="#"><img src="images/Linkedin.svg" alt="Linkedin  Link"></a></li>
+                    <li class="pt-2"><a href="#"><img src="images/Angelist.svg" alt="Angelist Link"></a></li>
+                    <li class="pt-2"><a href="#"><img src="images/Twitter.svg" alt="Twitter Link"></a></li>
+                    <li class="pt-2"><a href="#"><img src="images/Medium.svg" alt="Medium Link"></a></li>
+                </ul>
+              </div>
+              <div class="col-sm-5">
+                <div class="row">
+                    <h1 class="item-A mainText CreteRoundfont">Hey There. I’m Zahra</h1>
+                </div>
+                <div class="row">
+                    <p class="item-B textcolor Robotofont">I’am a Software Developer</p>
+                </div>
+                <div class="row">
+                    <p class="item-C textcolor Poppinsfont">
+                        I can help you build a product, feature or website Look through some of
+                        my work and experience! If you like what you see and have a project you
+                        need coded, don’t hestiate to contact me.
+                    </p>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+<!-- Work Section -->
+    <section>
+        <div class="card">
+            <div class="card-body">
+                <h2>My Recent Works</h2>
+                <hr class="horizontal-line">
+            </div>
+            <div class="card-footer">Footer</div>
+          </div>
+    </section>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
