@@ -1,31 +1,15 @@
-.bg-light {
-  background-color: #3c3a39!important;
+
+#welcome {
+  margin-top: 15%;
 }
 
-.nav-link,
-.navbar-light .navbar-brand,
-.container  {
-  color: #fff;
+#works {
+  margin-top: 15%; 
+  margin-bottom: 10%;
 }
 
-img, svg {
-  top: -25px;
+#form {
+  margin-top: 150px; 
+  margin-bottom: 50px;
 }
 
-.contactIcons {
-  list-style-type: none;
-}
-
-.container {
-  background-color: #1c1a19;
-  margin-right: 0%;
-  margin-left: 0%;
-}
-
-.horizontal-line {
-  display: inline;
-  border-top: 0.1px solid #212121;
-  width: 57%;
-  border-radius: 5px;
-  align-self: center;
-}
